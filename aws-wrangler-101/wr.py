@@ -3,11 +3,11 @@ import pandas as pd
 
 # Read remote CSV file into a Pandas data frame
 #
-df = pd.read_csv("http://csv-url-here.com/file.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/dorian599/data-medium/master/cars_data.csv")
 
 # Inspect the first 10 records of the dataframe
 #
-df.head()
+df.head(10)
 
 # Write the Dataframe to a S3 bucket in CSV format
 #
